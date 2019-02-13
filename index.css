@@ -1,19 +1,128 @@
-#um{
-    background: red;
-    padding: 10px;
-    width: 100%;
-    height: 80px;
+
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#dois{
-    background: orange;
-    padding: 10px;
-    width: 80%;
+#container{
+    width: 1024px;
+    margin: 20px auto; /* centralizar a imagem */
+}
+
+.top{
     height: 50px;
+    background: #162028;
+    position: relative;
 }
 
-#tres{
-    background: blue;
-    width: 25px;
-    height: 25px;
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
 }
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 10px; /* separar os blocos */
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.logo{
+    margin: 5px 0 0 135px;
+}
+
+#desc{
+    font-family: tahoma, arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+#desc h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+#desc p{
+    line-height: 1.5;
+    color: #555;
+}
+
+.galeria{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.galeria-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.galeria-title{
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+
+.mens{
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.mens h2{
+    font-family: tahoma, arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+
+.mens p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact{
+    margin: 50px 0;
+}
+
+#contact address{
+    color: #143f52;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.maps{
+    padding: 100px;
+    text-align: center;
+}
+
+.rodape{
+    background: #0b171f;
+}
+
